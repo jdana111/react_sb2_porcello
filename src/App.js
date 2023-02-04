@@ -7,6 +7,8 @@ function App() {
   const submit = (e) => {
     e.preventDefault();
     alert(`title = ${title}, color=${color}`)
+    setTitle("");
+    setColor("");
   }
   return (
     <form onSubmit={submit}>
