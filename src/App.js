@@ -17,7 +17,11 @@ function App() {
         onChange={event => setTitle(event.target.value)} 
         placeholder='Input a color...' 
       />
-      <input type="color" value={color} onChange={event => setColor(event.target.value)} />
+      <input 
+        type="color" 
+        value={color} 
+        onChange={event => setColor(event.target.value)} 
+      />
       <button>ADD</button>
     </form>
   );
